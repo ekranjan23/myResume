@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+body {
+    background-color: #ceb3e6;
+    /* font-size: 25px; */
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+nav {
+    background-color: rgb(8, 46, 121);
+    color: white;
+    height: 50px;
+    padding-top: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+}
+
+ul li {
+    padding: 0 30px;
+}
+
+
+
+
+
+.resume {
+    text-align: center;
+    background-color: rgb(8, 46, 121);
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    margin: 40px;
+
+}
+
+
+.photohead {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    margin: 10px;
+
+}
+
+.about {
+    padding: 5px;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+
+
+table,
+tr,
+th,
+td {
+    border: solid 3px rgb(255, 255, 255);
+}
+
+.table1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
+.contact {
+    padding: 5px;
+    border: 3px solid rgb(255, 255, 255);
+
+
+}
+
+tr th {
+    background-color: white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr:hover {
+    background-color: rgb(252, 241, 32);
+}
+
+
+footer>p {
+    text-align: center;
+}
+
+footer>p>a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: rgb(8, 46, 121);
+    height: 40px;
+    color: aliceblue;
+    padding-top: 21px;
+    width: 100%;
+}
